@@ -1,0 +1,118 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box!important ;
+	font-family: 'Alata', sans-serif;
+}
+
+
+h1{              /*weather widget heading*/
+	text-align: center;
+	color: rgb(3, 9, 61);
+	padding: 8vh ;	
+}
+
+#box{
+	width: 300px;
+	height: 420px;
+	/*background-image: linear-gradient(rgb(47,150,163),rgb(48,62,143));*/
+	position: relative;
+	margin: auto;
+	border-radius: 10px;
+}
+#wrapper{           /*content in box*/
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+	font-weight: bolder;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.temperature{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.location-timezone{
+	text-align: center;
+	padding: 1.5vh;
+}
+
+.icon{
+	text-align: center;
+}
+
+.description{
+	text-align: center;
+	padding: 1vh;
+}
+
+h5{
+	text-align: left;
+	padding: 1vh;
+}
+
+.degree-section{
+	display: flex;
+	align-items: center;
+}
+
+
+
+.hor-line{
+	width: 80%;
+	border: 1.5px solid black;
+}
+
+#next-city-button{
+	padding-top: 5vh;
+
+}
+
+#text-inside-button{
+	padding: 10px 50px;
+}
+
+
+@media(max-width: 500px){
+	h1{
+		padding: 6vh;
+		font-size: 9vw;
+	}
+}
+
+/*
+html,body {
+    height:100%;
+	width:100%;
+	position:relative;
+}
+#background-carousel{
+	position:fixed;
+	width:100vw;
+	height:100vh;
+	z-index:-1;
+}
+.carousel,
+.carousel-inner {
+	width:100vw;
+	height:100vh;
+	z-index:0;
+	overflow:hidden;
+}
+.item {
+	width:100vw;
+	height:100vh;
+	background-position:center center;
+	background-size:cover;
+	z-index:0;
+}
+
+#content-wrapper {
+	position:absolute;
+	z-index:1 !important;
+	min-width:100vw;
+	min-height:100vh;
+}
+.well {
+    opacity:0.85
+}*/

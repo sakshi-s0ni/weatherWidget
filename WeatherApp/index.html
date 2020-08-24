@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Weather Board</title>
+    <link rel="icon" href="images/favicon.jfif" sizes="25X41">
+	<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/landings.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="js/script.js"></script>
+</head>
+
+<body style="background-color: black">
+	<h1>Weather  Widget</h1>
+	<div id="box">
+		<div id="wrapper">
+			<h2 class="location-timezone">Timezone</h2>
+			<div class="icon"><img class="ic" src="icon/unknown.png"></div>
+			<div class="description">Description</div>
+		<!--	<hr class="hor-line"> -->
+			<div class="temperature">
+				<div class="degree-section">
+					<h5>Temperature: <span class="temperature-degree">0</span><span>°C</span></h5>
+				</div>
+					<h5>Wind Speed: <span class="wind">0</span><span>mps</span></h5>
+					<h5>Humidity Level: <span  class="humidity">0</span><span>%</span></h5>
+			</div>
+		</div>
+	</div>
+	<div class="text-center" id="next-city-button">
+		<button type="button" class="btn btn-info" id="text-inside-button"> Check for Another City</button>
+	</div>
+
+	<ul class="slideshow">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+</body>
+</html>
